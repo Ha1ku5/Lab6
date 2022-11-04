@@ -1,0 +1,5 @@
+ Statistics for the numbers in fileIn.txt:
+average: -8.54084923219304
+max: 99.91988393417824
+min: -98.07939733401781
+There are <54> negative numbers, <42> numbers between 0 (inclusive) and 100 (exclusive), and <0> numbers that are greater than or equal to 100.
