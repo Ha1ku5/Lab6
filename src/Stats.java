@@ -1,15 +1,14 @@
 
 //necessary imports for file i/o
 import java.io.*;
-import java.sql.SQLOutput;
 import java.util.Scanner; //reads from stream
 
 
 /**
- * Write a description of class Stats here.
+ * Logs various statistics about a provided list of numbers in a text file.
  * 
  * @author Alexander Leatha
- * @version (a version number or a date)
+ * @version 11/4/2022
  */
 public class Stats {
     public static void main(String[] args) throws IOException{  
@@ -32,7 +31,6 @@ public class Stats {
         
         try {            
            input = new Scanner(new FileInputStream("fileIn.txt"));
-           
         } 
         catch (IOException e) {
            System.out.println("File not found.");
@@ -64,7 +62,7 @@ public class Stats {
         average = grandTotal / lineCounter;
         display(average, max, min, lineCounter, negNum, btw0and100, geq100);
     }
-
+    //method to display results
     public static void display (double average, double max, double min, double lineCounter, int negNum, int btw0and100, int geq100){
     
         PrintWriter output = null;

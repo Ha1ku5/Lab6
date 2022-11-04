@@ -36,7 +36,6 @@ public class Advice {
                 userAdvice = input.nextLine();
             }
             log.println();
-
         } catch (FileNotFoundException e) {
             System.out.println(" THERE IS NO FILE ");
             System.exit(0);

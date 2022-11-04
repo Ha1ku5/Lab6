@@ -7,10 +7,10 @@ import java.io.PrintWriter;            //writes to the stream
 import java.io.FileNotFoundException; //this exception must be caught and handled when dealing with streams!
 
 /**
- * Write a description of class Diary here.
+ * Class writes diary entries takes from user input and writes them to a file.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Alexander Leatha
+ * @version 11/4/2022
  */
 public class Diary
 {
